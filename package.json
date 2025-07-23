@@ -1,5 +1,5 @@
 {
-  "name": "simple-state",
+  "name": "simple-state-js",
   "version": "1.0.0",
   "description": "Simple state manager for vanilla JS",
   "main": "dist/index.js",
