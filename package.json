@@ -1,0 +1,17 @@
+{
+  "name": "simple-state",
+  "version": "1.0.0",
+  "description": "Simple state manager for vanilla JS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/node": "^14.14.37"
+  },
+  "author": "Bohdan Radoveniuk",
+  "license": "ISC"
+}
