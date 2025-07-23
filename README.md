@@ -1,4 +1,4 @@
-# 📦 SimpleState
+# 📦 SimpleState.js
 
 A lightweight and dependency-free TypeScript state manager with built-in reactivity, subscription system, and reset functionality. Works great in any JavaScript or TypeScript environment: React, Node.js, or vanilla.
 
