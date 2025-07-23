@@ -25,119 +25,6 @@ Or with yarn:
 ```bash
 yarn add @radoveniuk/simple-state
 ```
-
-> Replace `@radoveniuk/simple-state` with your actual package name.
-
----
-
-## 🛠 Project Setup & Publishing Guide
-
-### 1. Create project structure
-
-```
-my-state-manager/
-├── src/
-│   └── index.ts
-├── package.json
-├── tsconfig.json
-├── README.md
-```
-
-Place your `SimpleState` class in `src/index.ts`.
-
----
-
-### 2. Initialize `package.json`
-
-Run:
-
-```bash
-npm init
-```
-
-Answer the questions (name, version, description, etc).
-
----
-
-### 3. Setup TypeScript config
-
-Create `tsconfig.json`:
-
-```json
-{
-  "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "declaration": true,
-    "outDir": "dist",
-    "strict": true,
-    "esModuleInterop": true
-  },
-  "include": ["src"]
-}
-```
-
----
-
-### 4. Add build script
-
-In `package.json`:
-
-```json
-"scripts": {
-  "build": "tsc"
-}
-```
-
----
-
-### 5. Build the project
-
-```bash
-npm run build
-```
-
-This compiles your code to the `dist/` folder.
-
----
-
-### 6. Prepare `README.md`
-
-You're reading it now 😄
-
----
-
-### 7. Create an npm account (if you don't have one)
-
-```bash
-npm adduser
-```
-
----
-
-### 8. Set correct entry points in `package.json`
-
-```json
-"main": "dist/index.js",
-"types": "dist/index.d.ts",
-```
-
----
-
-### 9. Publish your package
-
-If your package name is unique:
-
-```bash
-npm publish
-```
-
-If using a scoped package (e.g. `@radoveniuk/simple-state`):
-
-```bash
-npm publish --access public
-```
-
 ---
 
 ## 🚀 Usage Examples
@@ -246,7 +133,7 @@ appState.state.isLoading = true; // boolean
 
 ## 📄 License
 
-MIT © Your Name or Company
+MIT © Radoveniuk
 
 ---
 
