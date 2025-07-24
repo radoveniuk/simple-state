@@ -12,6 +12,14 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radoveniuk/simple-state"
+  },
+  "homepage": "https://github.com/radoveniuk/simple-state#readme",
+  "bugs": {
+    "url": "https://github.com/radoveniuk/simple-state/issues"
+  },
   "scripts": {
     "build": "tsc"
   },

@@ -17,13 +17,13 @@ A lightweight and dependency-free TypeScript state manager with built-in reactiv
 ## 📦 Installation
 
 ```bash
-npm install @radoveniuk/simple-state
+npm install simple-state-js
 ```
 
 Or with yarn:
 
 ```bash
-yarn add @radoveniuk/simple-state
+yarn add simple-state-js
 ```
 ---
 
@@ -32,7 +32,7 @@ yarn add @radoveniuk/simple-state
 ### 1. Create an instance
 
 ```ts
-import SimpleState from '@radoveniuk/simple-state';
+import SimpleState from 'simple-state-js';
 
 const state = new SimpleState({
   count: 0,
@@ -133,7 +133,7 @@ appState.state.isLoading = true; // boolean
 
 ## 📄 License
 
-MIT © Radoveniuk
+MIT © Bohdan Radoveniuk
 
 ---
 
