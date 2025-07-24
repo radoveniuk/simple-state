@@ -1,6 +1,6 @@
 {
   "name": "simple-state-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple state manager for vanilla JS",
   "main": "dist/index.js",
   "module": "dist/index.js",
