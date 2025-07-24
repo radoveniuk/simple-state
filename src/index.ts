@@ -1,4 +1,4 @@
-export default class StateManager<T extends Record<string, any>> {
+export default class SimpleState<T extends Record<string, any>> {
     private initialState: T;
     private _data: T;
     public state: T;
@@ -60,13 +60,11 @@ export default class StateManager<T extends Record<string, any>> {
             this._subscribers?.get(property)?.push(callback);
 
         } catch (error) {
-            console.log(error);
+            console.error(error);
         }
     }
 
     public reset = () => {
-        console.log('Resetting state to initial values:', this.initialState);
-
         this._data = structuredClone(this.initialState);
         this.state = new Proxy(this._data, this._handler);
         for (const [key, value] of Object.entries(this.initialState)) {
