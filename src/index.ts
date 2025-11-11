@@ -1,4 +1,4 @@
-export default class SimpleState<T extends Record<string, any>> {
+export class SimpleState<T extends Record<string, any>> {
     private initialState: T;
     private _data: T;
     public state: T;

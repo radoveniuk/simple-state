@@ -32,7 +32,7 @@ yarn add simple-state-js
 ### 1. Create an instance
 
 ```ts
-import SimpleState from 'simple-state-js';
+import { SimpleState } from 'simple-state-js';
 
 const state = new SimpleState({
   count: 0,
